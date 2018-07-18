@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+section, form, .container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+section, form {
+	margin: 50px auto;
+}
+section.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+form {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+h1 {
+	color: grey;
+	margin: 40px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.btn-primary {
+	background-color: #5ea596; 
+	border: 1px solid #5ea596;
+}
+.btn-primary:hover {
+	background-color: #5be5c7;
+	border: 1px solid #5ea596;
+}
+.row {
+	padding-bottom: 30px;
+}
+thead > tr {
+	background-color: #188e75;
+	color: white;
+}
+td, label {
+	color: grey;
+}
+.form-control {
+	background-color: #b1d8d0;
+	border: 1px solid #5ea596;
+}
+.form-control:focus {
+	border: 2px solid #669790;
+}
+.btn-info {
+	background-color: grey;
+	border: 1px solid grey;
+	margin-bottom: 20px;
+}
+.btn-info:hover {
+	background-color: white;
+	color: grey;
+	border: 1px solid grey;
+}
+.navbar-header > a> h1 {
+	margin: 20px auto;
+}
+.navbar-nav, .navbar-form {
+	margin-top: 15px;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+}
